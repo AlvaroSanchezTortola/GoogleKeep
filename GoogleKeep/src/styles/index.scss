@@ -1,0 +1,113 @@
+$fondo: #e8e8e8;
+$color-barra: #ffbb00;
+$margin-right: 100px;
+
+body {
+  background: $fondo;
+  font-size: 15px;
+  font-family: sans-serif;
+}
+
+.barra {
+  width: 105%;
+  height: 60px;   
+  background-color: $color-barra;
+  font: Georgia bold;
+  color: orange; 
+  text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+  font-size: 55px;
+  border-style: groove;
+  margin-left: -8px;
+  margin-top: -8px; 
+  padding-left: 20px;
+  line-height: 50px;
+  overflow: auto;
+}
+
+.main-container {
+  background-color: white;
+  border: none;
+  font-size: 18px;
+  height: 40px;
+  text-align: left;
+  width: 460px;
+}
+
+.notes-container {
+  text-align: -webkit-center;
+  width: 50%;
+  float: right;
+}
+
+.todos-container {
+  text-align: -webkit-center;
+  width: 50%;
+  float: left;
+}
+
+.list-background {
+  width: 89.3%;
+  padding: 20px;
+  border-style: double;;
+}
+
+.note-title-input {
+  box-shadow: white;
+  font-size: 18px;
+  height: 30px;
+  width: 460px;
+}
+
+.todo-title-input {
+  box-shadow: white;
+  font-size: 18px;
+  height: 30px;
+  width: 460px;
+  margin-top: 20px;
+}
+
+.note-body-input {
+  font-size: 15px;
+  padding-top: 22px;
+  height: 40px;
+  width: 462px;
+}
+
+.note-body {
+  background-color: $color-barra;
+  font-size: 15px;
+  padding-top: 8px;  
+  text-align: left;
+  width: 470px;
+}
+
+$margin-right: $margin-right - 20px;
+.switch-azul {
+  background-color: blue;
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 20px;
+  z-index: 2;
+  right: $margin-right - 22px;
+  
+}
+
+$margin-right: $margin-right - 20px;
+.switch-rojo {
+  background-color: red;  
+  display: inline-block;
+  height: 40px;
+  position: absolute;
+  text-align: center;
+  width: 20px;
+  z-index: 2;
+  right: $margin-right - 22px; 
+}
+
+.search-bar{
+  width: 70%;
+  height: 50px;
+  font-size: 18px; 
+}
